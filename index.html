@@ -51,11 +51,59 @@
           <option>Straight-cut: M</option>
           <option>Straight-cut: L</option>
           <option>Straight-cut: XL</option>
-          <option></option>
         </select>
       </div>
 
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="personal">
+      </div>
 
+      <div>
+        <label for="birth">Phone number<span>(required)</span></label>
+        <input type="tel" id="birth" name="personal" required>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+
+      <legend>Address</legend>
+
+      <div>
+        <label for="street">Street adress</label>
+        <input id="street" name="address">
+      </div>
+
+      <div>
+        <label for="city">City</label>
+        <input id="city" name="address">
+      </div>
+
+      <div>
+        <label for="province">Province</label>
+        <select id="province" name="address">
+          <option>Select a province</option>
+          <option>Alberta</option>
+          <option>British Columbia</option>
+          <option>Manitoba</option>
+          <option>New Brunswick</option>
+          <option>Newfoundland & Labrador</option>
+          <option>Northwest Territories</option>
+          <option>Nova Scotia</option>
+          <option>Nunavut</option>
+          <option>Ontario</option>
+          <option>Prince Edward Island</option>
+          <option>Québec</option>
+          <option>Saskatchewan</option>
+          <option>Yukon</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="postal-code">Postal Code</label>
+        <input id="postal-code" name="address">
+      </div>
 
     </fieldset>
 
