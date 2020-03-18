@@ -5,6 +5,7 @@ html {
 header, footer {
   background-color: #70ad55;
   color: #fff;
+  width: 100%;
 }
 
 fieldset {
@@ -30,6 +31,10 @@ button {
   background-color: #6e8c62;
   color: #fff;
   border: none;
+}
+
+textarea {
+  height: 10em;
 }
 
 @media only screen and (min-width: 38em) {
