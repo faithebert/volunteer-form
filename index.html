@@ -22,47 +22,50 @@
     <fieldset>
       <legend class="bold pad-t pad-b mega">Personal details</legend>
 
-      <div>
-        <label for="full-name">Full name</label>
-        <input type="text" id="full-name" name="personal">
-        <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
-      </div>
+      <div class="grid">
 
-      <div>
-        <label for="nickname">What should we call you?</label>
-        <input type="text" id="nickname" name="personal">
-        <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
-      </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <label for="full-name">Full name</label>
+          <input type="text" id="full-name" name="personal">
+          <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
 
-      <div class="push">
-        <label for="birth">Date of birth</label>
-        <input type="date" id="birth" name="personal">
-      </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <label for="nickname">What should we call you?</label>
+          <input type="text" id="nickname" name="personal">
+          <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
+        </div>
 
-      <div class="push">
-        <label for="size">Select a t-shirt size</label>
-        <select id="size" name="personal">
-          <option>Fitted: XS</option>
-          <option>Fitted: S</option>
-          <option>Fitted: M</option>
-          <option>Fitted: L</option>
-          <option>Fitted: XL</option>
-          <option>Straight-cut: XS</option>
-          <option>Straight-cut: S</option>
-          <option>Straight-cut: M</option>
-          <option>Straight-cut: L</option>
-          <option>Straight-cut: XL</option>
-        </select>
-      </div>
+        <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <label for="birth">Date of birth</label>
+          <input type="date" id="birth" name="personal">
+        </div>
 
-      <div class="push">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="personal">
-      </div>
+        <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <label for="size">Select a t-shirt size</label>
+          <select id="size" name="personal">
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
 
-      <div class="push">
-        <label for="birth">Phone number<span class="italic micro"> (optional)</span></label>
-        <input type="tel" id="birth" name="personal" required>
+        <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="personal">
+        </div>
+
+        <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <label for="birth">Phone number<span class="italic micro"> (optional)</span></label>
+          <input type="tel" id="birth" name="personal" required>
+        </div>
       </div>
 
     </fieldset>
@@ -114,30 +117,39 @@
     <fieldset>
       <legend class="bold pad-t pad-b mega">What activities are you interested in helping with?</legend>
 
-      <div>
-        <input type="checkbox" id="digging">
-        <label for="digging">Digging holes</label>
-
-        <input type="checkbox" id="getting-dirty">
-        <label for="getting-dirty">Getting dirty</label>
-
-        <input type="checkbox" id="heavy-objects">
-        <label for="heavy-objects">Lifting heavy objects</label>
-
-        <input type="checkbox" id="driving">
-        <label for="driving">Driving people</label>
-
-        <input type="checkbox" id="transporting-trees">
-        <label for="transporting-trees">Transporting trees</label>
-
-        <input type="checkbox" id="photos">
-        <label for="photos">Taking photos</label>
-
-        <input type="checkbox" id="online-publishing">
-        <label for="online-publishing">Online publishing</label>
-
-        <input type="checkbox" id="managing">
-        <label for="managing">Managing people</label>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="digging">
+          <label for="digging">Digging holes</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="getting-dirty">
+          <label for="getting-dirty">Getting dirty</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="heavy-objects">
+          <label for="heavy-objects">Lifting heavy objects</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="driving">
+          <label for="driving">Driving people</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="transporting-trees">
+          <label for="transporting-trees">Transporting trees</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="photos">
+          <label for="photos">Taking photos</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="online-publishing">
+          <label for="online-publishing">Online publishing</label>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
+          <input type="checkbox" id="managing">
+          <label for="managing">Managing people</label>
+        </div>
       </div>
 
     </fieldset>
@@ -145,44 +157,44 @@
     <fieldset>
       <legend class="bold pad-t pad-b mega">Do you have any experience with the following?</legend>
 
-      <div>
-        <div class="">
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="shovels">
           <label for="shovels">Shovels</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="GPS">
           <label for="GPS">Hand-held GPS</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="writing-and-blogging">
           <label for="writing-and-blogging">Writing & blogging</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="photography">
           <label for="photography">Photography</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="climbing">
           <label for="climbing">Trail & hill climbing</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="bush-craft">
           <label for="bush-craft">Bush craft</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="ATV">
           <label for="ATV">ATVs</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="plants">
           <label for="plants">Plant identification</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="planning">
           <label for="planning">Special event planning</label>
         </div>
-        <div class="">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-8">
           <input type="checkbox" id="group-speaking">
           <label for="group-speaking">Speaking to groups</label>
         </div>
@@ -233,19 +245,20 @@
 
       <hr>
 
-      <div>
-        <label for="concerns" class="bold pad-t pad-b mega">Please let us know any comments or questions you may have.<span>(optional)</span></label>
+      <div class="push-2">
+        <label for="concerns" class="bold pad-t pad-b mega">Please let us know any comments or questions you may have.<span class="italic micro">(optional)</span></label>
         <textarea id="concerns"></textarea>
       </div>
 
       <hr>
 
-      <div>
-        <button type="submit">Apply</button>
+      <div class="center-content island">
+        <button class="island-1-2 gutter-2" type="submit">Apply</button>
       </div>
+
   </form>
 
-  <footer>
+  <footer class="island milli">
     <p class="push-0">© Tree Hugger International Organization</p>
   </footer>
 
