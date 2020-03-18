@@ -14,3 +14,14 @@ fieldset {
 input, textarea, select {
   border-color: #6e8c62;
 }
+
+hr {
+  height: 2px;
+  background-color: #70ad55;
+  border: none;
+  opacity: .5;
+}
+
+span {
+  color: #70ad55;
+}
