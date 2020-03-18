@@ -2,7 +2,15 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-header {
+header, footer {
   background-color: #70ad55;
   color: #fff;
+}
+
+fieldset {
+  border: none;
+}
+
+input, textarea, select {
+  border-color: #6e8c62;
 }

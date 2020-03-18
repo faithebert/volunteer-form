@@ -7,18 +7,20 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-  <header>
-    <h1>Apply to be a tree planter</h1>
-    <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <header class="island-1-2 center-content">
+    <div>
+      <h1 class="pad-t-1-4">Apply to be a tree planter</h1>
+      <p class="pad-b-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </div>
   </header>
 
-  <form method="post">
+  <form method="post" class="island-1-2">
     <fieldset>
-      <legend>Personal details</legend>
+      <legend class="bold pad-t pad-b">Personal details</legend>
 
       <div>
         <label for="full-name">Full name</label>
@@ -65,6 +67,8 @@
 
     </fieldset>
 
+    <hr>
+
     <fieldset>
       <legend>Address</legend>
 
@@ -104,6 +108,8 @@
       </div>
 
     </fieldset>
+
+    <hr>
 
     <fieldset>
       <legend>What activities are you interested in helping with?</legend>
@@ -173,6 +179,8 @@
 
     </fieldset>
 
+    <hr>
+
     <fieldset>
       <legend>Do you have a valid driver’s license?</legend>
 
@@ -211,10 +219,14 @@
       </div>
       </fieldset>
 
+      <hr>
+
       <div>
         <label for="concerns">Please let us know any comments or questions you may have.<span>(optional)</span></label>
         <textarea id="concerns"></textarea>
       </div>
+
+      <hr>
 
       <div>
         <button type="submit">Apply</button>
@@ -222,7 +234,7 @@
   </form>
 
   <footer>
-    <p>© Tree Hugger International Organization</p>
+    <p class="push-0">© Tree Hugger International Organization</p>
   </footer>
 
 </body>
